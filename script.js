@@ -1,5 +1,10 @@
-for(age = 5; age <  10; age++) {
+const a = document.querySelectorAll('a')
 
-    console.log('working')
-    
+console.log(a)
+
+
+for (var i = 1; i < a.length; i++){
+
+    console.log('This is link number ' + i)
+
 }
