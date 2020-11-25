@@ -1,11 +1,5 @@
-let age = 5 
+for(age = 5; age <  10; age++) {
 
-while (age < 10) {
+    console.log('working')
     
-    console.log('perfect') 
-
-    age++
-
 }
-
-console.log('working')
