@@ -1,19 +1,9 @@
-for (let x = 0; x < 10; x++) {
+let links = document.getElementsByTagName("a")
 
-    if (x ===3 || x === 4) {
+console.log(links)
 
-        continue
+for (var i = 0; i < links.length; i++) {
 
-    }
-    
-    console.log(x)
+    links[i].className = "links - " + i
 
-    if (x ===7){
-
-        break
-
-    }
-    
 }
-
-console.log('working')
