@@ -1,10 +1,19 @@
-const a = document.querySelectorAll('a')
+for (let x = 0; x < 10; x++) {
 
-console.log(a)
+    if (x ===3 || x === 4) {
 
+        continue
 
-for (var i = 1; i < a.length; i++){
+    }
+    
+    console.log(x)
 
-    console.log('This is link number ' + i)
+    if (x ===7){
 
+        break
+
+    }
+    
 }
+
+console.log('working')
