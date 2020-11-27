@@ -1,5 +1,18 @@
-let tags =  "meat, beef, pork, mutton, chicken, ham"
+let myCar = new Object() 
 
-let tagsArray = tags.split(",") 
+myCar.maxSpeed = 50
 
-console.log(tagsArray)
+myCar.driver = 'Brian'
+
+
+console.log(myCar.driver)
+
+
+myCar.drive = function (){
+
+    console.log('Now driving')
+
+} 
+
+
+myCar.drive()
