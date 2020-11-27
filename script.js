@@ -1,18 +1,16 @@
-let myCar = new Object() 
+let myCar = {
 
-myCar.maxSpeed = 50
+    maxSpeed: 50,
 
-myCar.driver = 'Brian'
+    driver: 'Brian',
+    
+    drive: function(){
 
+        console.log('Now Driving')
 
-console.log(myCar.driver)
+    }
 
-
-myCar.drive = function (){
-
-    console.log('Now driving')
-
-} 
+}
 
 
-myCar.drive()
+console.log(myCar.maxSpeed, myCar.driver, myCar.drive)
