@@ -4,13 +4,15 @@ let myCar = {
 
     driver: 'Brian',
     
-    drive: function(){
+    drive: function(speed, time){
 
-        console.log('Now Driving')
+        console.log(speed * time)
 
     }
 
 }
 
 
-console.log(myCar.maxSpeed, myCar.driver, myCar.drive)
+console.log(myCar.maxSpeed, myCar.driver)
+
+myCar.drive(50, 3)
