@@ -10,10 +10,10 @@ let myCar = {
 
     },
 
-    test: function(){
+    logDriver: function(){
 
-        console.log(this) // 'This' refers to the current Object
-
+        console.log('Driver\'\s name is ' + this.driver)
+        
     }
 
 }
@@ -23,4 +23,4 @@ console.log(myCar.maxSpeed, myCar.driver)
 
 myCar.drive(50, 3)
 
-myCar.test()
+myCar.logDriver()
