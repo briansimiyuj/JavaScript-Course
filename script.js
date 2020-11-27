@@ -1,9 +1,5 @@
-let str = 'hello, world'
+let tags =  "meat, beef, pork, mutton, chicken, ham"
 
-let str1 = str.slice(2, 9)
+let tagsArray = tags.split(",") 
 
-console.log(str1)
-
-let str2 = str.slice(2)
-
-console.log(str2)
+console.log(tagsArray)
