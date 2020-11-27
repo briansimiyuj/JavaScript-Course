@@ -8,6 +8,12 @@ let myCar = {
 
         console.log(speed * time)
 
+    },
+
+    test: function(){
+
+        console.log(this) // 'This' refers to the current Object
+
     }
 
 }
@@ -16,3 +22,5 @@ let myCar = {
 console.log(myCar.maxSpeed, myCar.driver)
 
 myCar.drive(50, 3)
+
+myCar.test()
