@@ -1,3 +1,5 @@
-const birthDate = new Date(1996, 0, 21, 11, 25, 45)
+let links = document.querySelectorAll("a")
 
-console.log(birthDate.getTime())  /* Get time in milliseconds */
+let body = document.querySelector("body")
+
+let removed = body.removeChild(links[2])
