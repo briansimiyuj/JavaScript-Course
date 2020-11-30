@@ -1,0 +1,16 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#message{
+    background-color: red;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+#message.show{
+    opacity: 1;
+}

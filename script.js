@@ -1,5 +1,13 @@
-let links = document.querySelectorAll("a")
+const message = document.querySelector("#message")   
 
-let body = document.querySelector("body")
+console.log(message)
 
-let removed = body.removeChild(links[2])
+
+const showMessage = () =>{
+
+       message.className = "show"
+
+}
+
+
+setTimeout(showMessage, 3000)
