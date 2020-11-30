@@ -22,4 +22,12 @@ const changeColor = () =>{
 
 
 
-setInterval(changeColor, 3000) 
+let myTimer = setInterval(changeColor, 3000) 
+
+
+
+colorChanger.addEventListener('click', () =>{
+
+     clearInterval(myTimer)
+
+})
