@@ -8,6 +8,12 @@ let counter =  0
 
 const changeColor = () =>{
 
+       if (counter >= colors.length) {
+              
+              counter = 0
+
+       }
+
        colorChanger.style.backgroundColor = colors[counter]
 
        counter++
