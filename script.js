@@ -1,13 +1,19 @@
-const message = document.querySelector("#message")   
+const colorChanger = document.querySelector("#color-changer")
 
-console.log(message)
+const colors = ["Blue", "Green", "Yellow", "Red", "Pink", "Purple"]
+
+let counter =  0
 
 
-const showMessage = () =>{
 
-       message.className = "show"
+const changeColor = () =>{
+
+       colorChanger.style.backgroundColor = colors[counter]
+
+       counter++
 
 }
 
 
-setTimeout(showMessage, 3000)
+
+setInterval(changeColor, 3000) 
